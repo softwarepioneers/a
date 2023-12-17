@@ -467,11 +467,11 @@
              <form action="https://formspree.io/f/mbjvrpqo"  method="post" id="contact-us" class="form">
                 
                 <div class="form-group col-sm-4">
-                    <input type="text" name="Name" id="ExamsManager" autocomplete="off" placeholder="مدير الإمتحانات" required class="form-control custom-form-control input-lg uc-text" onkeydown="return /[a-zA-Z]/i.test(event.key)">
+                    <input type="text" name="Name" id="ExamsManager" autocomplete="off" placeholder="مدير المركز" required class="form-control custom-form-control input-lg uc-text" >
                 </div>
 <div class="form-group col-sm-4">
                       <select name="Type" id="ExamsType" required class="form-control custom-form-control input-lg ">
-                        <option value=""  >نوع الإمتحانات </option>
+                        <option value=""  >نوع المركز </option>
                         <option value="SECONDARY">SECONDARY </option>
                         <option value="PRIMARY">PRIMARY</option>
                       </select>
@@ -479,26 +479,26 @@
              
 
 <div class="form-group col-sm-4">
-                    <input type="text" name="Manager" id="ExamsCenter" autocomplete="off" placeholder="مركز الإمتحانات" required class="form-control custom-form-control input-lg uc-text" onkeydown="return /[a-zA-Z]/i.test(event.key)">
+                    <input type="text" name="Manager" id="ExamsCenter" autocomplete="off" placeholder="الأسم المركز" required class="form-control custom-form-control input-lg uc-text" >
                 </div>
                 <div class="form-group col-sm-4">
-                    <input type="text" name="Mobile" id="ExamsMobile" autocomplete="off" placeholder="جوال الإمتحانات" required class="form-control custom-form-control input-lg uc-text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+                    <input type="text" name="Mobile" id="ExamsMobile" autocomplete="off" placeholder="جوال المركز" required class="form-control custom-form-control input-lg uc-text" >
                 </div>
 
 <div class="form-group col-sm-4">
-                    <input type="text" name="Phone" id="ExamsPhone" autocomplete="off" placeholder="هاتف الإمتحانات" required class="form-control custom-form-control input-lg uc-text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+                    <input type="text" name="Phone" id="ExamsPhone" autocomplete="off" placeholder="هاتف المركز" required class="form-control custom-form-control input-lg uc-text" >
                 </div>
 <div class="form-group col-sm-4">
-                    <input type="text" name="WhatsApp" id="ExamsWhatsApp" autocomplete="off" placeholder="واتساب الإمتحانات" required class="form-control custom-form-control input-lg uc-text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+                    <input type="text" name="WhatsApp" id="ExamsWhatsApp" autocomplete="off" placeholder="واتساب المركز" required class="form-control custom-form-control input-lg uc-text" >
                 </div>
 <div class="form-group col-sm-4">
-                    <input type="email" name="Email" id="ExamsEmail" autocomplete="off" placeholder="بريد الإمتحانات" required class="form-control custom-form-control input-lg uc-text">
+                    <input type="email" name="Email" id="ExamsEmail" autocomplete="off" placeholder="بريد المركز" required class="form-control custom-form-control input-lg uc-text">
                 </div>
 
 
 <div class="form-group col-sm-4">
     <select name="Subject" id="ExamsSubject" required class="form-control custom-form-control input-lg ">
-            <option value=""  >موضوع الإمتحانات</option>
+            <option value=""  >موضوع المركز</option>
             <option value="SECONDARY">SECONDARY </option>
             <option value="PRIMARY">PRIMARY</option>
     </select>
@@ -508,7 +508,7 @@
 
 <div class="form-group col-sm-4">
                       <select name="Contract" id="ExamsContract" required class="form-control custom-form-control input-lg ">
-                      <option value=""  >عقد الإمتحانات</option>
+                      <option value=""  >عقد المركز</option>
                       <option value="NEW">NEW</option>
                       <option value="RENEWAL">RENEWAL</option>
                       </select>
@@ -516,42 +516,45 @@
 
 <div class="form-group col-sm-4">
                       <select name="Syllabus" id="ExamsSyllabus" required class="form-control custom-form-control input-lg ">
-                      <option value=""  >منهج الإمتحانات</option>
+                      <option value=""  >منهج المركز</option>
                       <option value="SOMALILAND">SOMALILAND</option>
                      </select>
                 </div>
 
                 <div class="form-group col-sm-4">
                     <select name="Region" id="subject" required class="form-control custom-form-control input-lg ">
-                    <option value="" >الإقليم الإمتحانات</option>
+                    <option value="" >الإقليم المركز</option>
                     
                     </select>
               </div>
 
                <div class="form-group col-sm-4">
                       <select name="City" id="topic" required class="form-control custom-form-control input-lg ">
-                      <option value=""  >مدينة الإمتحانات</option>
+                      <option value=""  >مدينة المركز</option>
                       
                       </select>
                 </div>
 
                 <div class="form-group col-sm-4">
                     <select name="Districts" id="chapter" required class="form-control custom-form-control input-lg ">
-                    <option value=""  >منظقة الإمتحانات</option>
+                    <option value=""  >منظقة المركز</option>
                     
                     </select>
               </div>
 
 
 
+   
+
+
                 <div class="form-group col-sm-4">
-                    <input type="text" name="EXAMINATOR" id="MinistryExaminator" autocomplete="off" placeholder="مدير المركز" required class="form-control custom-form-control input-lg uc-text" onkeydown="return /[a-zA-Z]/i.test(event.key)">
-                </div> 
+                    <input type="text" name="SPECIALTY" id="MinistrySpecialty" autocomplete="off" placeholder="تخصص المركز" required class="form-control custom-form-control input-lg uc-text">
+                </div>
 
 
 <div class="form-group col-sm-4">
  <select name="Service" id="ExamsService" required class="form-control custom-form-control input-lg ">
-                      <option value=""  >خدمة الإمتحانات</option>
+                      <option value=""  >خدمة المركز</option>
                       <optgroup label="ONLINE SERVICE">
                         <option value="MONTHLY EXAMS">MONTHLY EXAMS </option>
                         <option value="YEARLY EXAMS">YEARLY EXAMS</option>
@@ -568,7 +571,7 @@
              
                
                 <div class="form-group col-sm-12">
-                    <textarea name="Message" id="ExamsMessage" required autocomplete="off" placeholder="رسالة الإمتحانات" cols="30" rows="5" class="form-control custom-form-control input-lg uc-text"></textarea>
+                    <textarea name="Message" id="ExamsMessage" required autocomplete="off" placeholder="رسالة المركز" cols="30" rows="5" class="form-control custom-form-control input-lg uc-text"></textarea>
                 </div>
                 <div class="form-group col-md-12 text-center ">
                
